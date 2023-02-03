@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>myDFWeb</title>
+    <link href="./css/style.css" rel="stylesheet" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>E H4ckers</title>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0" />
+  </head>
+<style>
+  ul, #myUL {
+  list-style-type: none;
+}
+
+#myUL {
+  margin: 0;
+  padding: 0;
+}
+
+.caret {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+}
+
+.caret::before {
+  content: "\25B6";
+  color: black;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.caret-down::before {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */'
+  transform: rotate(90deg);  
+}
+
+.nested {
+  display: none;
+}
+
+.active {
+margin-left: "1000px";
+display: block;
+}
+  
+  
+</style>
+  <body>
+    
+    <div class="sidebar">
+      <div class="logo_content">
+        <div class="logo">
+          <i class="bx bx-code-block"></i>
+          <div class="logo_name">Eth Hackers</div>
+        </div>
+      </div>
+      <i class="bx bx-menu" id="btn"></i>
+      <ul class="nav_list">
+        <li>
+          
+          <a href="https://github.com/Ethical-h4ckers">
+            <i class="bx bxl-github"></i>
+            <span class="links_name">Github</span>
+          </a>
+          
+        </li>
+        <li>
+          <a href="./dartFlutter/dartFlutter.html">
+            <i class="bx bxs-user-voice"></i>
+            <span class="links_name">Seminar</span>
+          </a>
+          <span class="tooltip">Seminar</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-code-block"></i>
+            <span class="links_name">Codes</span>
+          </a>
+          <span class="tooltip">Codes</span>
+        </li>
+        <li>
+          <a href="https://github.com/aruncs31s/myDFWeb">
+            <i class="bx bx-folder"></i>
+            <span class="links_name">Files</span>
+          </a>
+          <span class="tooltip">Files</span>
+        </li>
+        <li>
+          <a href="./about/index.html">
+            <i class="bx bxs-grid-alt"></i>
+            <span class="links_name">About</span>
+          </a>
+          <span class="tooltip">About</span>
+        </li>
+        <li>
+        <a href="#">
+        <i class='bx bx-group' ></i>
+          <span class="links_name">Team Members</span>
+            </a>
+         <span class="tooltip">Members</span>
+          </li>
+          <li>
+            <a href="#">
+            <i class='bx bx-info-circle' ></i>
+            <span class="links_name">About</span>
+          </a>
+          
+        </li>
+      </ul>
+
+      <div class="profile_content">
+        <div class="profile">
+          <div class="profile_details">
+            <a href="https://github.com/Ethical-H4ckers" alt="">
+              <img
+                src="/images/logo.png"
+                alt=""
+              />
+
+              <div class="name_job">
+                <div class="name">E H4ckers</div>
+                <div class="job"></div>
+              </div>
+            </a>
+            <i class="bx bx-log-out" id="log-out"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+   
+    <header class="main_content">Ethical H4ckers</header>
+    <!---<div class="buttons">
+      <button href="#home" class="hButton1">Home</button>
+      <button href="#basics" class="hButton2">Basics</button>
+      <button href="#languages" class="hButton3">Languages</button>
+      <button href="#hacks" class="hButton5">Hacks</button>
+      <button href="#project" class="hButton7">Project</button>
+      <button href="#Scripts" class="hButton8">Scripts</button>
+      <button href="#about" class="hButton10">About</button>--->
+
+
+<div class="h-list">
+  <ul id="myUL">
+  <li><a href="#introduction" class="caret">Introduction</a>
+    <ul class="nested">
+      <li><a href="">Linux</a></li>
+      <li>Hacking</li>
+      <li>Programming</li>  
+      <li><span class="caret">Tea</span>
+        <ul class="nested">
+          <li>Black Tea</li>
+          <li>White Tea</li>
+          <li><span class="caret">Green Tea</span>
+            <ul class="nested">
+              <li>Sencha</li>
+              <li>Gyokuro</li>
+              <li>Matcha</li>
+              <li>Pi Lo Chun</li>
+            </ul>
+          </li>
+        </ul>
+      </li>  
+    </ul>
+  </li>
+</ul>
+
+<!-- ------------------------------------------- --->
+
+<ul id="myUL">
+  <li><span class="caret">Pre-Requests</span>
+    <ul class="nested">
+      <li><span class="caret">Linux</span>
+        <ul class="nested">
+          <li>X</li>
+          <li>W</li>
+       
+          <li><span class="caret">Green Tea</span>
+            <ul class="nested">
+              <li>Sencha</li>
+              <li>Gyokuro</li>
+              <li>Matcha</li>
+              <li>Pi Lo Chun</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><span class="caret">Git</span>
+        <ul class="nested">
+          <li>Introduction</li>
+          <li>Installation</li>
+      </li>  
+    </ul>
+  </li>
+</ul>
+<!-- ------------------------------------------- --->
+
+<ul id="myUL">
+  <li><span class="caret">Languages</span>
+    <ul class="nested">
+       <li><span class="caret">Tea</span>
+         <ul class="nested">
+           <li>Black Tea</li>
+           <li>White Tea</li>
+           <li><span class="caret">Green Tea</span>
+             <ul class="nested">
+               <li>Sencha</li>
+               <li>Gyokuro</li>
+               <li>Matcha</li>
+               <li>Pi Lo Chun</li>
+             </ul>
+           </li>
+         </ul>
+       </li>
+        <li><span class="caret">Tea</span>
+          <ul class="nested">
+            <li>Black Tea</li>
+            <li>White Tea</li>
+            <li><span class="caret">Green Tea</span>
+              <ul class="nested">
+                <li>Sencha</li>
+                <li>Gyokuro</li>
+                <li>Matcha</li>
+                <li>Pi Lo Chun</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        
+         <li><span class="caret">Tea</span>
+           <ul class="nested">
+             <li>Black Tea</li>
+             <li>White Tea</li>
+             <li><span class="caret">Green Tea</span>
+               <ul class="nested">
+                 <li>Sencha</li>
+                 <li>Gyokuro</li>
+                 <li>Matcha</li>
+                 <li>Pi Lo Chun</li>
+               </ul>
+             </li>
+           </ul>
+         </li>
+         
+          <li><span class="caret">Tea</span>
+            <ul class="nested">
+              <li>Black Tea</li>
+              <li>White Tea</li>
+              <li><span class="caret">Green Tea</span>
+                <ul class="nested">
+                  <li>Sencha</li>
+                  <li>Gyokuro</li>
+                  <li>Matcha</li>
+                  <li>Pi Lo Chun</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          
+           <li><span class="caret">Tea</span>
+             <ul class="nested">
+               <li>Black Tea</li>
+               <li>White Tea</li>
+               <li><span class="caret">Green Tea</span>
+                 <ul class="nested">
+                   <li>Sencha</li>
+                   <li>Gyokuro</li>
+                   <li>Matcha</li>
+                   <li>Pi Lo Chun</li>
+                 </ul>
+               </li>
+             </ul>
+           </li>
+           
+           
+      
+      
+      
+      
+      
+      
+      <li><span class="caret">Tea</span>
+        <ul class="nested">
+          <li>Black Tea</li>
+          <li>White Tea</li>
+          <li><span class="caret">Green Tea</span>
+            <ul class="nested">
+              <li>Sencha</li>
+              <li>Gyokuro</li>
+              <li>Matcha</li>
+              <li>Pi Lo Chun</li>
+            </ul>
+          </li>
+        </ul>
+      </li>  
+    </ul>
+  </li>
+</ul>
+
+<!-- ------------------------------------------- --->
+
+<ul id="myUL">
+  <li><span class="caret">Beverages</span>
+    <ul class="nested">
+      <li>Water</li>
+      <li>Coffee</li>
+      <li><span class="caret">Tea</span>
+        <ul class="nested">
+          <li>Black Tea</li>
+          <li>White Tea</li>
+          <li><span class="caret">Green Tea</span>
+            <ul class="nested">
+              <li>Sencha</li>
+              <li>Gyokuro</li>
+              <li>Matcha</li>
+              <li>Pi Lo Chun</li>
+            </ul>
+          </li>
+        </ul>
+      </li>  
+    </ul>
+  </li>
+</ul>
+
+
+<ul id="myUL">
+  <li><span class="caret">Beverages</span>
+    <ul class="nested">
+      <li>Water</li>
+      <li>Coffee</li>
+      <li><span class="caret">Tea</span>
+        <ul class="nested">
+          <li>Black Tea</li>
+          <li>White Tea</li>
+          <li><span class="caret">Green Tea</span>
+            <ul class="nested">
+              <li>Sencha</li>
+              <li>Gyokuro</li>
+              <li>Matcha</li>
+              <li>Pi Lo Chun</li>
+            </ul>
+          </li>
+        </ul>
+      </li>  
+    </ul>
+  </li>
+</ul>
+
+
+<ul id="myUL">
+  <li><span class="caret">Beverages</span>
+    <ul class="nested">
+      <li>Water</li>
+      <li>Coffee</li>
+      <li><span class="caret">Tea</span>
+        <ul class="nested">
+          <li>Black Tea</li>
+          <li>White Tea</li>
+          <li><span class="caret">Green Tea</span>
+            <ul class="nested">
+              <li>Sencha</li>
+              <li>Gyokuro</li>
+              <li>Matcha</li>
+              <li>Pi Lo Chun</li>
+            </ul>
+          </li>
+        </ul>
+      </li>  
+    </ul>
+  </li>
+</ul>
+
+
+<ul id="myUL">
+  <li><span class="caret">Beverages</span>
+    <ul class="nested">
+      <li>Water</li>
+      <li>Coffee</li>
+      <li><span class="caret">Tea</span>
+        <ul class="nested">
+          <li>Black Tea</li>
+          <li>White Tea</li>
+          <li><span class="caret">Green Tea</span>
+            <ul class="nested">
+              <li>Sencha</li>
+              <li>Gyokuro</li>
+              <li>Matcha</li>
+              <li>Pi Lo Chun</li>
+            </ul>
+          </li>
+        </ul>
+      </li>  
+    </ul>
+  </li>
+</ul>
+
+
+<ul id="myUL">
+  <li><span class="caret">Beverages</span>
+    <ul class="nested">
+      <li>Water</li>
+      <li>Coffee</li>
+      <li><span class="caret">Tea</span>
+        <ul class="nested">
+          <li>Black Tea</li>
+          <li>White Tea</li>
+          <li><span class="caret">Green Tea</span>
+            <ul class="nested">
+              <li>Sencha</li>
+              <li>Gyokuro</li>
+              <li>Matcha</li>
+              <li>Pi Lo Chun</li>
+            </ul>
+          </li>
+        </ul>
+      </li>  
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+
+  </div>
+  
+
+  
+    
+    
+    
+     <section class="home" id="home">
+    
+    <h2 align="center">Introduction</h2>
+    <p>&#160;&#160;&#160;&#160;&#160;This is a free and open source project made by few students and anyone intrested sharing hacking or linux skill or anyone willing to learn hacking are wellcome here.</p>
+    <p>&#160; &#160; &#160;&#160;We all know what hacking is and we've seen
+lot of hacker in movies right? the one always with masks and they just press one key and the system is hacked . That's not realy how things work a simple simple scan can even take more than the whole movie(depents on what your scanning).Inorder to be a hacker (or just to know how it works) we should at least know about linux and how to execute a command, becouse now days everything is available on github from simple phishing scripts to whole hacking framework, Hacking using those scripts still make you a hacker but you will be known as a "script kiddie" (the person who plays with scripts) and who does not even know what he is doing</p>
+      
+      
+    </section>
+    
+    <section class="basics" id="basics">
+      <h2 align="center">Basics</h2>
+    
+      
+      
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  </body>
+  <script>
+    let btn = document.querySelector("#btn");
+    let sidebar = document.querySelector(".sidebar");
+    let searchBtn = document.querySelector(".bx-search-alt");
+    btn.onclick = function () {
+      sidebar.classList.toggle("active");
+    };
+    searchBtn.onclick = function () {
+      sidebar.classList.toggle("active");
+    };
+    </script>
+    <script>
+      var toggler = document.getElementsByClassName("caret");
+      var i;
+      
+      for (i = 0; i < toggler.length; i++) {
+        toggler[i].addEventListener("click", function() {
+          this.parentElement.querySelector(".nested").classList.toggle("active");
+          this.classList.toggle("caret-down");
+        });
+      }
+    </script>
+    
+</html>
