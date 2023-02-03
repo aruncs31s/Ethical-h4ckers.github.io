@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>myDFWeb</title>
+    <link href="./css/style.css" rel="stylesheet" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>E H4ckers</title>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0" />
+  </head>
+
+  <body>
+    <div class="sidebar">
+      <div class="logo_content">
+        <div class="logo">
+          <i class="bx bx-code-block"></i>
+          <div class="logo_name">Eth Hackers</div>
+        </div>
+      </div>
+      <i class="bx bx-menu" id="btn"></i>
+      <ul class="nav_list">
+        <li>
+          <a href="#">
+            <i class="bx bx-search-alt"></i>
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+          </a>
+          <span class="tooltip">Search</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bxl-visual-studio"></i>
+            <span class="links_name">Projects</span>
+          </a>
+          <span class="tooltip">Projects</span>
+        </li>
+        <li>
+          <a href="./dartFlutter/dartFlutter.html">
+            <i class="bx bxs-user-voice"></i>
+            <span class="links_name">Seminar</span>
+          </a>
+          <span class="tooltip">Seminar</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-code-block"></i>
+            <span class="links_name">Codes</span>
+          </a>
+          <span class="tooltip">Codes</span>
+        </li>
+        <li>
+          <a href="https://github.com/aruncs31s/myDFWeb">
+            <i class="bx bx-folder"></i>
+            <span class="links_name">Files</span>
+          </a>
+          <span class="tooltip">Files</span>
+        </li>
+        <li>
+          <a href="./about/index.html">
+            <i class="bx bxs-grid-alt"></i>
+            <span class="links_name">About</span>
+          </a>
+          <span class="tooltip">About</span>
+        </li>
+        <!--- <li>
+                    <a href="#">
+                        <i class='bx bxs-grid-alt' ></i>
+                        <span class="links_name">Dashboard</span>
+                    </a>
+                    <span <clas></clas>s="links_name">Dashboard</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bxs-grid-alt' ></i>
+                        <span class="links_name">Dashboard</span>
+                    </a>
+                    <span class="links_name">Dashboard</span>
+                </li>
+                --->
+      </ul>
+
+      <div class="profile_content">
+        <div class="profile">
+          <div class="profile_details">
+            <a href="https://github.com/Ethical-H4ckers" alt="">
+              <img
+                src="/images/logo.png"
+                alt=""
+              />
+
+              <div class="name_job">
+                <div class="name">E H4ckers</div>
+                <div class="job"></div>
+              </div>
+            </a>
+            <i class="bx bx-log-out" id="log-out"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <header class="main_content">
+      <div class="heading">Ethical H4ckers</div>
+      <h3>Under Constructionn</h3>
+      
+      
+      
+    </header>
+    <div class="button">
+      <button href="#home" class="hButton1">Home</button>
+      <button href="#basics" class="hButton2">Basics</button>
+      <button href="#languages" class="hButton3">Languages</button>
+      <button href="#hacks" class="hButton5">Hacks</button>
+      <button href="#project" class="hButton7">Project</button>
+      <button href="#Scripts" class="hButton8">Scripts</button>
+      <button href="#about" class="hButton10">About</button>
+    </div>
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  </body>
+  <script>
+    let btn = document.querySelector("#btn");
+    let sidebar = document.querySelector(".sidebar");
+    let searchBtn = document.querySelector(".bx-search-alt");
+    btn.onclick = function () {
+      sidebar.classList.toggle("active");
+    };
+    searchBtn.onclick = function () {
+      sidebar.classList.toggle("active");
+    };
+    
+    function myFunction() {
+      var input, filter, ul, li, a, i, txtValue;
+      input = document.getElementById("myInput");
+      filter = input.value.toUpperCase();
+      ul = document.getElementById("myUL");
+      li = ul.getElementsByTagName("li");
+      for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          li[i].style.display = "";
+        } else {
+          li[i].style.display = "none";
+        }
+      }
+    }
+    
+  </script>
+</html>
