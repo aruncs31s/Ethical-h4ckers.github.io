@@ -14,7 +14,6 @@
 }
 
 a {
-  color: #fff;
   text-decoration: none;
 }
 body {
@@ -26,6 +25,7 @@ body {
   background: #1f1f1f;
 }
 .sidebar {
+  z-index: 1000;
   position: fixed;
   height: 100%;
   width: 50px;
@@ -205,11 +205,15 @@ body {
     left: 275px;
 }*/
 .main_content {
+  background: #129cff;
+  padding-bottom: 10px;
   padding-left: 30px;
   text-align: center;
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   margin-top: 10px;
+  font-weight: 600;
+  padding-top: 10px;
 }
 
 
@@ -255,8 +259,24 @@ margin-left: 40px;
 .basics{
   color:white;
 }
-.h-list {
+.h-h-list{
+  background: #000000;
+  padding-top: 5px;
+  padding-bottom: 5px;
   position: relative;
-  padding-left: 70px;
+  padding-left: 50px;
+  text-align: left;
   color: white;
+}
+
+.h-list {
+  color: black;
+  background: #ffffff;
+  position: relative;
+  padding-top: 20px;
+  padding-left: 50px;
+  
+}
+.h-list #myUl a{
+  color: balck;
 }
