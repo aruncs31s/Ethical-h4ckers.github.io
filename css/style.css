@@ -270,13 +270,13 @@ margin-left: 40px;
 }
 
 .h-list {
-  color: black;
-  background: #ffffff;
+  color: white;
+  background: #1f1f1f;
   position: relative;
   padding-top: 20px;
   padding-left: 50px;
   
 }
 .h-list #myUl a{
-  color: balck;
+  color: white;
 }
