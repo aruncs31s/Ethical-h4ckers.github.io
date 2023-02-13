@@ -14,6 +14,7 @@
 }
 
 a {
+  
   text-decoration: none;
 }
 body {
@@ -313,15 +314,19 @@ li::before { color: white;
   .new_tree details{
     padding-left: 100px;
   }
-  .hacking{
+  .hacking {
     text-align:left;
-    padding-left: 30px;
+    padding-left: 10px;
 
+  }
+  .hacking a {
+    color: aqua;
   }
   .img_hacking{
     margin-top: 20px;
    
-    width: 100px;
+    width: 190px;
+    max-width: 250px;
     border-radius: 30px;
     text-align: center;
     position: relative;
