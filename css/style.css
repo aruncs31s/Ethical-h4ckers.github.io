@@ -9,7 +9,7 @@
 
 }
 .sidebar ul{
-  padding: 0%;*/
+  padding: 0%;
   
 }
 
@@ -205,7 +205,7 @@ body {
     left: 275px;
 }*/
 .main_content {
-  background: #129cff;
+  background: #121212;
   padding-bottom: 10px;
   padding-left: 30px;
   text-align: center;
@@ -231,7 +231,7 @@ body {
   position: relative;
   padding-left: 40px;
   color: white;
-  align:center;
+  text-align:center;
 }
 section{
 margin-left: 40px;
@@ -271,10 +271,10 @@ margin-left: 40px;
 
 .h-list {
   color: white;
-  background: #1f1f1f;
+  background: #121212;
   position: relative;
   padding-top: 20px;
-  padding-left: 50px;
+  padding-left: 70px;
   
 }
 .h-list #myUl a{
@@ -309,3 +309,21 @@ margin-left: 40px;
 li::before { color: white;
   display: inline-block; width: 1em;
   margin-left: -1em}
+
+  .new_tree details{
+    padding-left: 100px;
+  }
+  .hacking{
+    text-align:left;
+    padding-left: 30px;
+
+  }
+  .img_hacking{
+    margin-top: 20px;
+   
+    width: 100px;
+    border-radius: 30px;
+    text-align: center;
+    position: relative;
+  }
+  
