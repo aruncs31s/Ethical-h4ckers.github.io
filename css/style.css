@@ -305,6 +305,7 @@ margin-left: 40px;
   background: #0f0f0f;
   white-space: nowrap ;
   overflow: auto;
+  max-width: 100px;
   
 }
 li::before { color: white;
@@ -332,3 +333,9 @@ li::before { color: white;
     position: relative;
   }
   
+  .contents{
+    padding-left: 60px;
+    background-color: #121212;
+    color: #ffffff;
+
+  }

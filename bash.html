@@ -4,10 +4,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
+    <link href="./css/style.css" rel="stylesheet" />
+    <link
+    href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+    rel="stylesheet"
+  />
     <title>Document</title>
 </head>
 <body>
+  <div class="sidebar">
+    <div class="logo_content">
+      <div class="logo">
+        <i class="bx bx-code-block"></i>
+        <div class="logo_name">Eth Hackers</div>
+      </div>
+    </div>
+    <i class="bx bx-menu" id="btn"></i>
+    <ul class="nav_list">
+      <li>
+        <a href="https://github.com/Ethical-h4ckers">
+          <i class="bx bxl-github"></i>
+          <span class="links_name">Github</span>
+        </a>
+        
+      </li>
+      <li>
+        <a href="./dartFlutter/dartFlutter.html">
+          <i class="bx bxs-user-voice"></i>
+          <span class="links_name">Seminar</span>
+        </a>
+        <span class="tooltip">Seminar</span>
+      </li>
+      <li>
+        <a href="./codes.html">
+          <i class="bx bx-code-block"></i>
+          <span class="links_name">Codes</span>
+        </a>
+        <span class="tooltip">Codes</span>
+      </li>
+      <li>
+        <a href="https://github.com/aruncs31s/myDFWeb">
+          <i class="bx bx-folder"></i>
+          <span class="links_name">Files</span>
+        </a>
+        <span class="tooltip">Files</span>
+      </li>
+      <li>
+        <a href="./about/index.html">
+          <i class="bx bxs-grid-alt"></i>
+          <span class="links_name">About</span>
+        </a>
+        <span class="tooltip">About</span>
+      </li>
+      <li>
+      <a href="./team_members.html">
+      <i class='bx bx-group' ></i>
+        <span class="links_name">Team Members</span>
+          </a>
+       <span class="tooltip">Members</span>
+        </li>
+        <li>
+          <a href="#">
+          <i class='bx bx-info-circle' ></i>
+          <span class="links_name">About</span>
+        </a>
+        
+      </li>
+    </ul>
+
+    <div class="profile_content">
+      <div class="profile">
+        <div class="profile_details">
+          <a href="https://github.com/Ethical-H4ckers" alt="">
+            <img
+              src="/images/logo.png"
+              alt=""
+            />
+
+            <div class="name_job">
+              <div class="name">E H4ckers</div>
+              <div class="job"></div>
+            </div>
+          </a>
+          <i class="bx bx-log-out" id="log-out"></i>
+        </div>
+      </div>
+    </div>
+  </div>
     
+
+<div  class="contents"> 
+
 <h2>Languages</h2>
 
 <ul>
@@ -19,61 +106,74 @@
 <h3 id="bash">Bash</h3>
 
 <h3>  Basics  </h3>
-- [Introduction](#introduction)
-- [Basic commands](#basic-commands)
-- [Paths](#paths)
-- 
-### **Programmming**
- - [Hello World!]()
- - [Variables](#variables)
- - [Read Inputs]()
- - [Sum of Two numbers]()
- - [Multiply Two Numbers]()
- - [Increment a number]()
- - 
+<ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#basic-commands">Basic commands</a></li>
+    <li><a href="#paths">Paths</a></li>
+    
+</ul>
+<h3> Programming </h3>
+<ul>
+<li><a>Hello World!</a></li>
+<li><a>Variables</a></li>
+<li><a>Read Inputs</a></li>
+<li><a>sum of two numbers</a></li>  
+<li><a href="">Multiply Two Numbers</a></li>
+<li><a href="">Increment a number</a></li>
 
-### Pre-requests
-
-
-
-## Introduction
---- 
-          Shell Scripting is mainly used to automate taks with the help of shell scripting language, and Bash is the most used of em' `Bash` is the default shell in allmost all linux operating systems 
+</ul>
 
 
-_This repo will contain complete tutorial about bash_
+<h3>Pre-requests</h3>
 
-- [Introduction](#introduction)
-- [Basic commands](#basic-commands)
-- [Paths](#paths)
+
+<h2>Introduction</h2>
+<hr>
+
+<p>  Shell Scripting is mainly used to automate taks with the help of shell scripting language, and Bash is the most used of em' `Bash` is the default shell in allmost all linux operating systems 
+</p>
+
+<i>This repo will contain complete tutorial about bash_</i>
+<ul>
+  <li><a href="#introduction">Introduction</a></li>
+  <li><a href="#basic-commands">basic Commands</a></li>
+  <li><a href="paths">Paths</a></li>
 -
+</ul>
+<h3>Pre-requests</h3>
+<ul>
+<li></li>
+<li></li>
+<li></li>
 
-### Pre-requests
+
+
+</ul>
 - PC or Termux or ish
 - a terminal
 - bash or zsh installed
 
-## Introduction
+
+<h2>Introduction</h2>
+
 <!-- 
 <img align="center"  src="https://github.com/aruncs31s/bash/blob/main/images/terminal.png?raw=true">
 
 <img  src="">
 
 -->
----
+<hr>
 
+<p>_Shell Scripting is mainly used to automate taks with the help of shell scripting language and Bash is the most used of em' <i>Bash</i> is the default shell in allmost all linux operating systems_
+</p>
 
-_Shell Scripting is mainly used to automate taks with the help of shell scripting language and Bash is the most used of em' `Bash` is the default shell in allmost all linux operating systems_
-
----
+<hr>
 
 Type Following on any terminal
+<div class="code_spaces">
 
-```
 $ echo $BASH_VERSION
-
-```
-
+</div>
 
 this will print current version of bash you are using
 
@@ -631,6 +731,7 @@ youtube-dl -x --audio-format mp3 <URL>
 -->
 
 
+</div>
 
 
 </body>
